@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="724.0" style="-fx-background-color: #7894c1;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#3c3c3c" layoutX="239.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JavaChat!" textAlignment="CENTER" wrappingWidth="245.13671875" AnchorPane.bottomAnchor="416.703125" AnchorPane.leftAnchor="239.0" AnchorPane.topAnchor="57.548828125">
+         <font>
+            <Font name="Gill Sans MT" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#3c3c3c" layoutX="217.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" textAlignment="CENTER" wrappingWidth="141.13671875" AnchorPane.topAnchor="176.416015625">
+         <font>
+            <Font name="Gill Sans MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#3c3c3c" layoutX="217.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IP Address:" textAlignment="CENTER" wrappingWidth="141.13671875" AnchorPane.topAnchor="203.416015625">
+         <font>
+            <Font name="Gill Sans MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#3c3c3c" layoutX="217.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port:" textAlignment="CENTER" wrappingWidth="141.13671875" AnchorPane.leftAnchor="217.0" AnchorPane.rightAnchor="365.86328125" AnchorPane.topAnchor="233.416015625">
+         <font>
+            <Font name="Gill Sans MT" size="20.0" />
+         </font>
+      </Text>
+      <TextField layoutX="358.0" layoutY="176.0" AnchorPane.topAnchor="176.0" />
+      <TextField layoutX="358.0" layoutY="203.0" AnchorPane.topAnchor="203.0" />
+      <TextField layoutX="358.0" layoutY="233.0" AnchorPane.topAnchor="233.0" />
+      <Button layoutX="327.0" layoutY="330.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: a09bc1;" text="Login" AnchorPane.topAnchor="330.0">
+         <font>
+            <Font name="Gill Sans MT" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
