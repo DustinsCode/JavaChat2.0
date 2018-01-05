@@ -5,13 +5,13 @@ package model;
  *
  * @author Dustin Thurston (@xStaticVoid)
  */
-public class client {
+public class Client {
 
     /** Ip address*/
     private String ip;
 
     /** Port number*/
-    private String port;
+    private int port;
 
     /** Username*/
     private String username;
@@ -25,7 +25,7 @@ public class client {
      * @param port number the server is on
      * @param username the user wants to be recognized as
      */
-    public client(String ip, String port, String username){
+    public Client(String ip, int port, String username){
         this.ip = ip;
         this.port = port;
         this.username = username;
@@ -55,4 +55,8 @@ public class client {
     public String getUsername(){
         return this.username;
     }
+
+    public String getIpAddress() {return this.ip;}
+
+    public int getPort() { return this.port;}
 }
